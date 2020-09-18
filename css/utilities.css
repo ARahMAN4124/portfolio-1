@@ -1,0 +1,25 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-araound {
+  justify-content: space-around;
+}
+.text-align {
+  text-align: center;
+}
+.align-item {
+  align-items: center;
+}
+.flex-1 {
+  flex: 1;
+}

@@ -1,0 +1,251 @@
+@import "utilities.css";
+:root {
+  --primary: #6da7f0;
+  --pure: #fff;
+  --secendary: #113b66;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/header.jpg);
+}
+.nav {
+  padding: 10px 10px 0 10px;
+}
+.nav .navber {
+  margin-bottom: 2rem;
+}
+.nav .navber .logo img {
+  width: 200px;
+}
+.nav .navber .logo h2 {
+  color: white;
+}
+.navber .manuber a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 40px;
+  font-weight: 600;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.navber .manuber a:hover {
+  color: var(--primary);
+}
+.main-benner .my-photo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.main-benner .my-photo img {
+  width: 180px;
+  border-radius: 50%;
+  border: 3.5px solid var(--pure);
+  transition: all 0.4s ease;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+.main-benner .my-name {
+  text-align: center;
+}
+.main-benner .my-name h1 {
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  word-spacing: 1rem;
+  font-size: 60px;
+  margin-bottom: 1rem;
+}
+.main-benner .my-name h6 {
+  color: var(--pure);
+  font-size: 22px;
+  word-spacing: 0.1rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-bottom: 2rem;
+}
+#about {
+  width: 100%;
+  background: var(--secendary);
+}
+#about .about {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+#about .heading h1 {
+  text-align: center;
+  color: rgb(99, 211, 231);
+  font-weight: 550;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 1.5rem;
+}
+#about .heading hr {
+  background: rgb(99, 211, 231);
+  height: 3px;
+  width: 10%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+#about .about-me .left img {
+  width: 350px;
+}
+#about .about-me .right h2 {
+  font-family: sans-serif;
+  font-size: 25px;
+  margin-bottom: 2rem;
+  color: rgb(99, 211, 231);
+  font-weight: 550;
+}
+#about .about-me .right p {
+  margin-bottom: 2rem;
+  color: rgb(216, 198, 198);
+}
+#about .about-me .right .bio table tr {
+  height: 40px;
+  width: 100%;
+}
+#about .about-me .right .bio table tr .th {
+  height: 20px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+}
+#about .about-me .right .bio table tr td {
+  letter-spacing: 1px;
+  color: rgb(216, 198, 198);
+  width: 135px;
+}
+#about .about-me .right .button {
+  margin-top: 2rem;
+}
+#service {
+  background-color: #f5f5f5;
+  padding-top: 4rem;
+}
+#service .service .heading-2 {
+  text-align: center;
+}
+#service .service .heading-2 h1 {
+  text-align: center;
+  color: rgb(99, 211, 231);
+  font-weight: 550;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 1.5rem;
+}
+#service .service .heading-2 hr {
+  background: rgb(99, 211, 231);
+  height: 3px;
+  width: 10%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+#service .service .heading-2 p {
+  padding: 0 160px;
+  margin-bottom: 2rem;
+}
+#service .service .service-silde {
+  display: grid;
+
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  padding-bottom: 5rem;
+}
+#service .service .service-silde .card {
+  background: #e0d3d3;
+  box-shadow: 10px 10px 15px 2px rgba(110, 51, 51, 0.541);
+  padding: 1rem 2rem;
+}
+#service .service .service-silde .card img {
+  width: 50px;
+}
+#contact {
+  background-image: url(../images/services.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#contact .contact-me {
+  padding-top: 3rem;
+  margin-right: 0%;
+}
+#contact .contact-me h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--pure);
+  font-family: sans-serif;
+  margin-bottom: 3rem;
+}
+#contact .contact-me .form {
+  margin-left: auto;
+}
+#contact .contact-me .form table tr input {
+  width: 490px;
+  height: 30px;
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  transition: all 0.4s ease;
+  background: none;
+  outline: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+::-webkit-input-placeholder {
+  color: var(--primary);
+  text-transform: uppercase;
+}
+#contact .contact-me .form table tr input:hover {
+  background: rgba(255, 255, 255, 0.349);
+  width: 515px;
+  height: 40px;
+}
+#contact .contact-me .form table tr textarea {
+  width: 490px;
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  transition: all 0.4s ease;
+  background: none;
+  outline: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+#contact .contact-me .form table tr textarea:hover {
+  background: rgba(255, 255, 255, 0.349);
+  width: 515px;
+}
